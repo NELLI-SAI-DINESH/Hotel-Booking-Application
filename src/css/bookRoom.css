@@ -1,0 +1,104 @@
+.BookRoom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("X:\REACT-PROJECT\dinesh-hospitality\src\images\6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.pageName{
+    border-radius: 10px;
+    max-width: fit-content;
+    justify-content: center;
+    background-color: #1b191960;
+    color: white;
+    padding: 10px;
+    font-style: oblique;
+}
+
+.BookRoom-form{
+    max-width: 400px;
+    width: 90%;
+    background-color: rgba(151, 147, 147, 0.9);
+    border-radius:10px;
+    padding: 20px;
+    padding-right: 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.BookRoom-form label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.BookRoom-form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.BookRoom-form select{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.BookRoom-form button {
+    /* display: block; 
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; */
+
+
+background-color: #6ddbf77a;
+width: 100%;
+font-size: 20px;
+border-radius: 8px;
+padding: 10px;
+color: rgb(245,236,236);
+border: 2px solid #000000;
+transition-duration: 0.4s;
+font-weight: bold;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px;
+cursor:pointer;
+justify-content: center;
+}
+
+.BookRoom-form button:hover {
+    background-color: #dff1ed00;
+    color: rgb(247,247,247);
+}
+
+.BookRoom-Button:active{
+    background-color: #131922;
+    color: #5978dd;
+    border-color: #5978dd;
+    transform: translateY(2px);
+}

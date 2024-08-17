@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "9a8c",
+      "name": "Chiranjeevi",
+      "address": "6-79/3, RAILWAY STATION ROAD",
+      "email": "chiru@gmail.com",
+      "phone": "09491894614",
+      "password": "1234567890"
+    },
+    {
+      "id": "0e52",
+      "name": "NELLI SAI DINESH",
+      "address": "6-79/3, RAILWAY STATION ROAD",
+      "email": "nellisaidinesh@gmail.com",
+      "phone": "09491894614",
+      "password": "123123123"
+    },
+    {
+      "id": "be92",
+      "name": "NELLI SAI ",
+      "address": "6-79/3, RAILWAY STATION ROAD",
+      "email": "nelli@gmail.com",
+      "phone": "06305532511",
+      "password": "1234567890"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "hotelName": "Grand Plaza Hotel",
+      "city": "New York",
+      "description": "A luxurious hotel located in the heart of New York City, offering stunning skyline views and world-class amenities.",
+      "amenities": "Free Wi-Fi Swimming Pool Spa Gym 24/7 Room Service",
+      "phoneNo": 7013119612,
+      "address": "123 Main St, New York, NY 10001",
+      "imageUrl": "4.jpg",
+      "reviews": [
+        "Excellent service and great location!",
+        "The rooms were spacious and clean."
+      ]
+    },
+    {
+      "id": 2,
+      "hotelName": "Seaside Resort",
+      "city": "Miami",
+      "description": "Experience the beauty of Miami at our seaside resort with breathtaking ocean views and top-notch facilities.",
+      "amenities": "Free Wi-Fi Swimming Pool Spa Gym 24/7 Room Service",
+      "phoneNo": 9290779432,
+      "address": "789 Ocean Dr, Miami, FL 33139",
+      "imageUrl": "3.jpg",
+      "reviews": [
+        "Perfect beach getaway!",
+        "Loved the food and the staff was very friendly."
+      ]
+    },
+    {
+      "id": 3,
+      "hotelName": "Mountain Retreat",
+      "city": "Denver",
+      "description": "Nestled in the Rocky Mountains, our retreat offers a peaceful escape with cozy accommodations and outdoor adventures.",
+      "amenities": "Free Wi-Fi Swimming Pool Spa Gym 24/7 Room Service",
+      "phoneNo": 8899556644,
+      "address": "456 Mountain Rd, Denver, CO 80202",
+      "imageUrl": "2.jpg",
+      "reviews": [
+        "Amazing views and great for outdoor enthusiasts!",
+        "The cabins were cozy and comfortable."
+      ]
+    },
+    {
+      "id": 4,
+      "hotelName": "City Comfort Inn",
+      "city": "Los Angeles",
+      "description": "A budget-friendly hotel located in downtown Los Angeles, offering convenient access to popular attractions and public transport.",
+      "amenities": "Free Wi-Fi Swimming Pool Spa Gym 24/7 Room Service",
+      "phoneNo": 4477885522,
+      "address": "321 Sunset Blvd, Los Angeles, CA 90026",
+      "imageUrl": "1.jpg",
+      "reviews": [
+        "Affordable and clean, great for a quick stay.",
+        "Good location but rooms are a bit small."
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "0090",
+      "customerName": "Chiranjeevi",
+      "startDate": "2024-08-17",
+      "endDate": "2024-08-23",
+      "noOfPersons": "1",
+      "noOfRooms": "1",
+      "typeOfRoom": "Suite Room",
+      "hotelName": "Grand Plaza Hotel",
+      "hotelId": 1,
+      "email": "chiru@gmail.com"
+    },
+    {
+      "id": "2f28",
+      "customerName": "Varun Tej",
+      "startDate": "2024-08-17",
+      "endDate": "2024-08-23",
+      "noOfPersons": "2",
+      "noOfRooms": "1",
+      "typeOfRoom": "5 Star Room",
+      "hotelName": "Seaside Resort",
+      "hotelId": 2,
+      "email": "varun@gmail.com"
+    },
+    {
+      "id": "c9cc",
+      "startDate": "2024-08-23",
+      "endDate": "2024-08-22",
+      "NoOfPersons": "3",
+      "NoOfRooms": "1",
+      "typeOfRoom": "DANY",
+      "email": "bhargavseshadri12389@gmail.com"
+    }
+  ]
+}

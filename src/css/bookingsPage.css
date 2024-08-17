@@ -1,0 +1,78 @@
+.bookingPage-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("X:\REACT-PROJECT\dinesh-hospitality\src\images\3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.bookingPage-cards {
+    max-width: 90%;
+    background-color: rgba(13, 27, 25, 0.733);
+    border-radius: 10px;
+    color: rgb(226, 214, 214);
+    padding: 15px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+    text-align: left;
+    display: inline-block;
+    /* flex-direction: row; */
+    margin: 10px;
+
+    /* border: 1px solid #ccc ; */
+}
+
+.hotelName-bookingsPage {
+    text-align: right;
+    align-items: center;
+}
+
+.bookingPage-button{
+    background-color: #6ddbf77a;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    color: rgb(245,236,236);
+    border:2px solid #000000 ;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.bookingPage-button:active {
+    background-color: #131922;
+    color: #5978dd;
+    border-color: #5978dd;
+    transform: translateY(2px);
+}
+
+.bookingPage-button:hover{
+    
+}
+
+.bookingPage-button{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.bookingPage-button:active{
+    background-color: #131922;
+    color: #5978dd;
+    border-color: #5978dd;
+    transform: translateY(2px);
+}
+
+.bookingPage-button:hover{
+    background-color: #dff1ed00;
+    color: rgb(247,247,247);
+}

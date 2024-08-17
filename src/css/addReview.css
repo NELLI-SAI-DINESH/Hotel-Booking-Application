@@ -1,0 +1,85 @@
+.addReview-container{
+
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("X:\REACT-PROJECT\dinesh-hospitality\src\images\1.png");
+    background-attachment: fixed;
+    background-position: center;
+    /* max-height: 500px; */
+    overflow: auto;
+    /* display: none; */
+
+
+    height: 100vh;
+}
+
+.addReview-addReviewBox{
+    max-width: max-content;
+    width: auto;
+    color: white;
+    background-color: rgba(19,22,22,0.575);
+    border-radius: 10px;
+    padding: 40px;
+    padding-right: 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    text-align: left;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.input-block{
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.712);
+    padding: 50px;
+    color: rgb(0,0,0);
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.input-block:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0,0,0);
+}
+
+.reviewBox-name{
+    margin-top: 0%;
+    text-align: center;
+    font-style: oblique;
+}
+
+input::placeholder {
+    color: rgb(0,0,0);
+}
+
+.addReview-Button{
+    display: flex;
+    background-color: #6ddbf77a;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    color: rgb(245,236,236);
+    border: 2px solid #000000;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    justify-content: center;
+}
+
+    /* margin-bottom: 20px; */
+
+.addReview-Button:active{
+        background-color: #131922;
+        color: #5978dd;
+        border-color: #5978dd;
+        transform: translateY(2px);
+    }
+
+    .addReview-Button:hover {
+        background-color: #dff1ed00;
+        color: rgb(247,247,247);
+    }
